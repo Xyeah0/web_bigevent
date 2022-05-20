@@ -3,7 +3,7 @@ html,body{
     padding: 0;
     height: 100%;
     width: 100%;
-    background: url(/assets/images/login_bg.jpg) no-repeat center;
+    background: linear-gradient(to left bottom,lightgray, #11AA66);
     background-size:cover;
 }
 .loginAndRegBox{
@@ -46,4 +46,11 @@ display: none;
 }
 .layui-form-item .layui-input{
     padding-left: 32px;
+}
+.layui-main img{
+    width: 68px;
+
+}
+.btn_login{
+    background-color:#11AA66!important;
 }
